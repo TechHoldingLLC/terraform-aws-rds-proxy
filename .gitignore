@@ -1,0 +1,20 @@
+# terraform
+terraform.tfstate*
+.terraform*
+tfplan
+# Local .terragrunt directories
+**/.terragrunt-cache
+**/.terragrunt-source-manifest
+!.terraform-version
+!.terragrunt-version
+!tf-init/envs/*/terraform.tfstate
+!**/terragrunt.lock.hcl
+
+examples
+.DS_Store
+**/.DS_Store
+
+.zip
+**/**.zip
+temp-*
+tmp
